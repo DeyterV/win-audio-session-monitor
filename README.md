@@ -17,9 +17,12 @@ OBS Studio plugin that adds a dock panel listing all active Windows audio sessio
 ## Installation
 
 1. Download the latest `.zip` from [Releases](https://github.com/DeyterV/win-audio-session-monitor/releases)
-2. Extract into your OBS Studio installation folder (e.g. `C:\Program Files\obs-studio\`)
-3. Restart OBS Studio
-4. Open the dock via **View → Docks → Audio Session Monitor**
+2. Extract the zip — it produces a `win-audio-session-monitor/` folder
+3. Place that folder into one of:
+   - `%APPDATA%\obs-studio\plugins\` — per-user install, no admin rights required
+   - `<obs-dir>\obs-plugins\64bit\` for the `.dll` and `<obs-dir>\data\obs-plugins\win-audio-session-monitor\` for the `data\` folder — system-wide install
+4. Restart OBS Studio
+5. Open the dock via **View → Docks → Audio Session Monitor**
 
 ## Building from source
 
