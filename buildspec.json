@@ -36,10 +36,10 @@
             "bundleId": "com.example.plugintemplate-for-obs"
         }
     },
-    "name": "plugintemplate-for-obs",
-    "displayName": "Plugin Template for OBS",
+    "name": "win-audio-session-monitor",
+    "displayName": "Audio Session Monitor for OBS",
     "version": "1.0.0",
-    "author": "Your Name Here",
-    "website": "https://example.com",
-    "email": "me@example.com"
+    "author": "DeyterV",
+    "website": "https://github.com/DeyterV/win-audio-session-monitor",
+    "email": "deyter.vladimir@gmail.com"
 }
